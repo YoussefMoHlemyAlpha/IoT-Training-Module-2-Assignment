@@ -5,7 +5,7 @@ int calcfactorial(int num);
 int main()
 {
     int num;
-    printf("Enter a number to calculate it's factorial: ");
+    printf("Enter a number to calculate its factorial: ");
     scanf("%d", &num);
     printf("The factorial of number %d is: %d", num, calcfactorial(num));
     return 0;
